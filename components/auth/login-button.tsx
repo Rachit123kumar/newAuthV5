@@ -16,7 +16,7 @@ export default function Loginbutton({children,mode="redirect",asChild}:LoginButt
 
 if(mode==="modal"){
 
-return <span>Implememt modal</span>
+return <span>Implememt modal {asChild ?"":""}</span>
 }
 
 
